@@ -14,7 +14,7 @@ int main()
     Hero Hobj;
 
     Hobj.health = 50;
-    Hobj.level = 'D';
+    Hobj.level = 'A';
 
     cout << "Health is : " << Hobj.health << endl;
     cout << "Level is : " << Hobj.level << endl;
