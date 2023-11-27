@@ -47,4 +47,7 @@ int main()
 
     cout << "Health is " << (*hero2).getHealth() << endl;
     cout << "Level is " << (*hero2).getLevel() << endl;
+
+    cout << "Health is " << hero2->getHealth() << endl;
+    cout << "Level is " << hero2->getLevel() << endl;
 }
