@@ -75,23 +75,21 @@ public:
     {
         this->name = name;
     }
+
+    ~Hero()
+    {
+        cout << "Destructor Called" << endl;
+    }
 };
 
 int main()
 {
-    Hero hero1(100, 'A');
-    char name[6] = "Rahul";
-    hero1.setName(name);
-    hero1.print();
+    // Static Memory Allocation
+    Hero a;
 
-    // Shallow copy by default copy constructor
-    Hero hero2(hero1);
-    hero2.print();
+    // For Dynamic memory Alloction
+    Hero *b = new Hero();
 
-    hero1.name[0] = 'M';
-    hero1.print();
-    hero2.print();
-
-
-    //copy assignment operator '='
+    // Deallocate
+    delete b;
 }
