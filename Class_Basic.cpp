@@ -15,5 +15,5 @@ int main()
     //Creation Of Object
     Hero h1;
 
-    cout << "size Of h1 Object is : "<< sizeof(h1) << endl;           // 4 Byte
+    cout << "size Of h1 Object is : "<< sizeof(h1) << endl;           // 8 Byte
 }
